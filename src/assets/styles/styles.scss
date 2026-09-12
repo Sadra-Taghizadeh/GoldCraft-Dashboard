@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'ModamWeb';
+  src: url('../fonts/ModamWeb-Regular.woff') format('woff');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ModamWeb';
+  src: url('../fonts/ModamWeb-Bold.woff') format('woff');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ModamWeb';
+  src: url('../fonts/ModamWeb-RegularCondensed.woff') format('woff');
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: condensed;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ModamWeb';
+  src: url('../fonts/ModamWeb-BoldCondensed.woff') format('woff');
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: condensed;
+  font-display: swap;
+}
+
+html,
+body,
+#app {
+  font-family: 'ModamWeb', sans-serif;
+}
+
+// Write your overrides
