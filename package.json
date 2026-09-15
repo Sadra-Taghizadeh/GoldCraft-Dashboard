@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "tsx src/plugins/iconify/build-icons.js && vite build",
     "preview": "vite preview --port 5050",
     "lint": "eslint . --fix",
     "build:icons": "tsx src/plugins/iconify/build-icons.js",
